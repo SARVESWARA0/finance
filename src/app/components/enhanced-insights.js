@@ -154,7 +154,7 @@ const EnhancedMarketInsights = ({ insights }) => {
                         </div>
 
                         <div className="flex items-center justify-between">
-                          <span className="text-slate-400 text-sm">Today's Change</span>
+                          <span className="text-slate-400 text-sm">Today&apos;s Change</span>
                           <div className="text-right">
                             <div className={`font-bold text-lg ${isPositive ? "text-green-400" : "text-red-400"}`}>
                               {isPositive ? "+" : ""}
